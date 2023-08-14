@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a2126;
+}
+
+header a {
+  color: white;
+  transition: all 0.45s ease-in-out;
+}
+
+header a:hover {
+  color: #527af2;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+}
+
+header nav {
+  width: 80%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 5vh;
+  width: auto;
+  margin-left: auto;
+  font-size: 15pt;
+}
+
+#container {
+  width: 100%;
+  height: 80vh;
+  background: #bbcdf2;
+  display: flex;
+  align-items: center;
+}
+
+#container img {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+}
+
+#sobre-container {
+  height: 50vh;
+  width: 70vh;
+  background-color: #fffef4;
+  box-shadow: 2px 2px 4px #527af2;
+  border-radius: 20px;
+  margin-left: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sobre-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #333333;
+  text-align: justify;
+  height: auto;
+}
+
+#descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+    margin-top: 1vh;
+}
+
+span {
+  color: rgb(108, 160, 255);
+}
+
+#apps-icons {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: 4vh;
+  gap: 10px;
+  align-items: center;
+}
+
+#sobre-content h1{
+    border-bottom: 5px solid rgb(124, 124, 255);
+}
+
+#apps-icons ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vh;
+}
+
+#apps-icons ul img {
+  width: 40px;
+  height: 40px;
+  transition: all 0.45s ease-in-out;
+}
+
+#apps-icons ul img:hover {
+  transform: scale(1.1);
+}
+
+#apps-icons button {
+  width: auto;
+  align-self: center;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background: rgb(46, 212, 46);
+  color: rgb(219, 255, 198);
+  text-shadow: 2px 1px 4px black;
+  font-size: 13pt;
+  transition: all 0.15s ease-in-out;
+}
+
+#apps-icons button:hover {
+  background: rgb(35, 167, 35);
+  cursor: pointer;
+}
+
+#price {
+  color: red;
+  padding: 5px;
+}
+
+#promotion-price {
+  color: rgb(0, 223, 0);
+  background: #6c6d6c;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+#contador{
+  background: rgb(202, 2, 2);
+  color: rgb(201, 201, 134);
+  padding: 5px;
+  border-radius: 15px;
+  width: 5vh;
+  text-align: center;
+  font-weight: bold;
+}

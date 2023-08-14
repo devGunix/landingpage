@@ -1,0 +1,167 @@
+@media screen and (max-width: 1100px) {
+  nav ul {
+    font-size: 12pt;
+  }
+
+  header img {
+    width: 70px;
+    height: 70px;
+  }
+
+  #container img {
+    width: 320px;
+    height: 320px;
+  }
+
+  #sobre-container {
+    width: 40%;
+  }
+
+  #sobre-content {
+    width: 60%;
+  }
+
+  #sobre-container h1 {
+    font-size: 15pt;
+  }
+
+  #sobre-container h3 {
+    font-size: 12pt;
+  }
+
+  #sobre-container p {
+    font-size: 10pt;
+  }
+
+  #apps-icons button {
+    padding: 7px;
+    font-size: 11pt;
+  }
+
+  #apps-icons ul img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  nav ul {
+    font-size: 11pt;
+  }
+
+  header img {
+    width: 60px;
+    height: 60px;
+  }
+
+  #container img {
+    width: 280px;
+    height: 280px;
+  }
+
+  #sobre-container {
+    width: 40%;
+  }
+
+  #sobre-content {
+    width: 60%;
+  }
+
+  #sobre-container h1 {
+    font-size: 13pt;
+  }
+
+  #sobre-container h3 {
+    font-size: 11.5pt;
+  }
+
+  #sobre-container p {
+    font-size: 10pt;
+  }
+
+  #apps-icons button {
+    padding: 7px;
+    font-size: 11pt;
+  }
+
+  #apps-icons ul img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #container img {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+  }
+
+  #apps-icons {
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+
+  #sobre-container {
+    width: 35%;
+    margin: 0;
+    margin-top: 5vh;
+    padding: 20px;
+    height: auto;
+  }
+
+  #sobre-container h1 {
+    font-size: 11pt;
+  }
+
+  #sobre-container h3 {
+    font-size: 9pt;
+  }
+
+  #descricao p {
+    font-size: 8pt;
+  }
+
+  #sobre-content {
+    width: 80%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  #sobre-container {
+    width: 50%;
+    padding: 20px;
+    height: auto;
+  }
+  #sobre-content {
+    height: 60%;
+  }
+
+  footer {
+    height: auto;
+  }
+  #social-footer {
+    flex-direction: column;
+  }
+
+  #footer-align {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #sobre-container {
+    width: 70%;
+  }
+
+  header nav ul {
+    display: none;
+  }
+}
